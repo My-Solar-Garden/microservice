@@ -11,10 +11,13 @@ gem 'shotgun'
 gem 'pry'
 gem 'bcrypt'
 gem 'tux'
+gem 'fast_jsonapi'
 
 group :test do
   gem 'rspec'
-  gem 'capybara'
+  gem 'simplecov'
+  gem 'shoulda-matchers'
   gem 'rack-test'
-  gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
+  gem 'webmock'
+  gem 'vcr'
 end
