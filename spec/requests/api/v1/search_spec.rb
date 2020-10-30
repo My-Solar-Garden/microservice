@@ -1,4 +1,4 @@
-require './plant_index.rb'
+require './plants.rb'
 require './spec/spec_helper'
 
 class PlantAPIExposureTest < Test::Unit::TestCase
