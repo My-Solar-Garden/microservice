@@ -1,9 +1,7 @@
-ENV['APP_ENV'] = 'test'
-
 require './plant_index.rb'
-require 'spec/spec_helper'
+require './spec/spec_helper'
 
-class PlantTest < Test::Unit::TestCase
+class PlantAPIExposureTest < Test::Unit::TestCase
   def app
     Sinatra::Application
   end
@@ -61,7 +59,6 @@ class PlantTest < Test::Unit::TestCase
     assert_equal String, parsed[0][:diseases].class
 
     parsed[0].has_key?(:pests)
-    assert_equal String, parsed[0][:pests].class
 
     parsed[0].has_key?(:harvesting)
     assert_equal String, parsed[0][:harvesting].class
