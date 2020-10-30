@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'faraday'
 require 'fast_jsonapi'
-require './poros/plant'
 
 def conn
   response = Faraday.get("http://harvesthelper.herokuapp.com/api/v1/plants?api_key=117050ef67998cb1747b93f65d4288f1")
