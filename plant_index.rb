@@ -4,10 +4,13 @@ require 'fast_jsonapi'
 
 require './poros/plant'
 
-get '/plants' do
-  # response = Faraday.get("http://harvesthelper.herokuapp.com/api/v1/plants?api_key=#{ENV['PLANT-API-KEY']}")
+def conn
   response = Faraday.get("http://harvesthelper.herokuapp.com/api/v1/plants?api_key=117050ef67998cb1747b93f65d4288f1")
-  results = JSON.parse(response.body, symbolize_names: true)
+  # response = Faraday.get("http://harvesthelper.herokuapp.com/api/v1/plants?api_key=#{ENV['PLANT-API-KEY']}")
 
-  results.to_json
+  results = JSON.parse(response.body, symbolize_names: true)
+end
+
+get '/plants' do
+  conn.to_json
 end
