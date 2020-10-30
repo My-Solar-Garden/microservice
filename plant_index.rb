@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'faraday'
 require 'fast_jsonapi'
-
 require './poros/plant'
 
 def conn

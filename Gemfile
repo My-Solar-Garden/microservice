@@ -5,7 +5,7 @@ gem 'faraday'
 gem 'fast_jsonapi'
 gem 'pry'
 gem 'json'
-
+gem 'figaro', :git => 'https://github.com/bpaquet/figaro.git', :branch => 'sinatra'
 
 group :test do
   gem 'pry'
@@ -16,4 +16,5 @@ group :test do
   gem 'vcr'
   gem 'capybara'
   gem 'rack-test'
+  gem 'test-unit'
 end
