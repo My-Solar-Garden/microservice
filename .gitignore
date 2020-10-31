@@ -1,2 +1,4 @@
 /coverage
 /config
+# Ignore application configuration
+/config/application.yml
