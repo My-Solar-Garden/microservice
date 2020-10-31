@@ -11,3 +11,9 @@ deploy:
   on:
     repo: My-Solar-Garden/plants_microservice
     branch: main
+notifications:
+  email:
+    on_success: never
+    on_failure: never
+cache:
+- bundler

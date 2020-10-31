@@ -3,7 +3,6 @@ source 'http://rubygems.org'
 gem 'sinatra'
 gem 'faraday'
 gem 'fast_jsonapi'
-gem 'pry'
 gem 'json'
 gem 'figaro', :git => 'https://github.com/bpaquet/figaro.git', :branch => 'sinatra'
 
