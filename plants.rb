@@ -14,6 +14,6 @@ get '/plants' do
 end
 
 get '/plants/search' do
-  results = conn.find_all { |plant| plant[:name].downcase.include?(params[:term].downcase) }
+  results = conn.find_all { |plant| plant[:name].downcase.include?(params[:search_term].downcase) }
   results.to_json
 end
