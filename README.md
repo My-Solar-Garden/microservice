@@ -5,10 +5,10 @@ This Sinatra application serves as a microservice for My Solar Garden [url], an 
 [ insert setup instructions ]
 
 ## Endpoints
-- All requests should be sent to https://plants-api-2006.herokuapp.com
+- All requests should be sent to https://plants-api-2006.herokuapp.com/api/v1
 
 ### Get all plants
-GET https://plants-api-2006.herokuapp.com/plants
+GET https://plants-api-2006.herokuapp.com/api/v1/plants
 
 - Example of one's plants details in response:
 
@@ -34,3 +34,7 @@ GET https://plants-api-2006.herokuapp.com/plants
         "image_url": "harvest_helper_production/22_parsnips"
     },
 ```
+
+### Search plants
+GET https://plants-api-2006.herokuapp.com/api/v1/plants/search?search_term=desired_plant"
+

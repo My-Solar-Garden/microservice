@@ -8,7 +8,7 @@ class PlantAPIExposureTest < Test::Unit::TestCase
 
   def test_it_can_send_all_plants
     browser = Rack::Test::Session.new(Rack::MockSession.new(Sinatra::Application))
-    browser.get "/plants"
+    browser.get "/api/v1/plants"
 
     assert browser.last_response.ok?
 
@@ -72,7 +72,7 @@ class PlantAPIExposureTest < Test::Unit::TestCase
 
   def test_it_can_search_all_plants
     browser = Rack::Test::Session.new(Rack::MockSession.new(Sinatra::Application))
-    browser.get "/plants/search?search_term=tom"
+    browser.get "/api/v1/plants/search?search_term=tom"
  
     assert browser.last_response.ok?
     parsed = JSON.parse(browser.last_response.body, symbolize_names: true)
