@@ -9,10 +9,7 @@ require 'rspec'
 require 'webmock/rspec'
 require 'vcr'
 
-SimpleCov.start 'rails' do
-  add_filter '/config/'
-  add_filter '/spec/'
-end
+SimpleCov.start
 
 RSpec.configure do |config|
   config.run_all_when_everything_filtered = true
