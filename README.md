@@ -1,8 +1,31 @@
 # Plants Microservice
-This Sinatra application serves as a microservice for My Solar Garden [url], an application for [insert app description]. It collects plant data by requesting information from the [Harvest Helper API](https://github.com/damwhit/harvest_helper).
+This Sinatra application serves as a microservice for [My Solar Garden](https://solar-garden-fe.herokuapp.com/), an application for tracking your garden's health and measuring its carbon impacts. It collects plant data by requesting information from the [Harvest Helper API](https://github.com/damwhit/harvest_helper).
+
+## Readme Content
+- [Getting Started](#getting-started)
+- [Endpoints](#endpoints)
+- [Database Schema](#testing)
 
 ## Getting Started
-[ insert setup instructions ]
+
+### Prerequisites
+- Ruby 2.5.3
+- [Harvest Helper](https://github.com/damwhit/harvest_helper) API key 
+
+### Installing
+```
+$ git clone git@github.com:My-Solar-Garden/plants_microservice.git
+  # or clone your own fork
+$ cd plants_microservice
+$ bundle install
+$ bundle exec figaro install
+```
+- Add your Harvest Helper API key to your application.yml file as PLANTS_API_KEY
+  - example: `PLANTS_API_KEY: 'mykey'`
+
+### Run your own development server 
+- $ rails s
+- This is a microservice (no frontend view). To access the frontend repo, head to https://github.com/My-Solar-Garden/front_end_rails.
 
 ## Endpoints
 - All requests should be sent to https://plants-api-2006.herokuapp.com/api/v1
@@ -36,5 +59,9 @@ GET https://plants-api-2006.herokuapp.com/api/v1/plants
 ```
 
 ### Search plants
-GET https://plants-api-2006.herokuapp.com/api/v1/plants/search?search_term=desired_plant"
+GET https://plants-api-2006.herokuapp.com/api/v1/plants/search?search_term=desired_plant
 
+## Testing
+- Run tests:
+  - $ bundle exec rspec
+- All tests should be passing
