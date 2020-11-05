@@ -5,6 +5,7 @@ This Sinatra application serves as a microservice for [My Solar Garden](https://
 - [Getting Started](#getting-started)
 - [Endpoints](#endpoints)
 - [Database Schema](#testing)
+- [Contributors](#contributors)
 
 ## Getting Started
 
@@ -65,3 +66,46 @@ GET https://plants-api-2006.herokuapp.com/api/v1/plants/search?search_term=desir
 - Run tests:
   - $ bundle exec rspec
 - All tests should be passing
+
+## Contributors
+
+  * Alex Desjardins
+    * [GitHub](https://github.com/moosehandlr)
+    * [LinkedIn](https://www.linkedin.com/in/alex-desjardins-59297b8b/)
+  * Angela Guardia
+    * [GitHub](https://github.com/AngelaGuardia)
+    * [LinkedIn](https://www.linkedin.com/in/angela-guardia/)
+  * Danielle Coleman
+    * [GitHub](https://github.com/dcoleman21)
+    * [LinkedIn](https://www.linkedin.com/in/danielle-coleman-86ab3b13/)
+  * Daniel Lessenden
+    * [GitHub](https://github.com/D-Lessenden)
+    * [LinkedIn](https://www.linkedin.com/in/lessenden/)
+  * Drew Williams
+    * [GitHub](https://github.com/drewwilliams5280)
+    * [LinkedIn](https://www.linkedin.com/in/drewwilliams5280/)
+  * Eric Hale
+    * [GitHub](https://github.com/EHale64)
+    * [LinkedIn](https://www.linkedin.com/in/eric-hale-656843155/)
+  * Hashim Gari
+    * [GitHub](https://github.com/hashmaster3k)
+    * [LinkedIn](https://www.linkedin.com/in/hashim-gari/)
+  * Leah Riffell
+    * [GitHub](https://github.com/leahriffell)
+    * [LinkedIn](https://www.linkedin.com/in/leah-riffell/)
+  * Logan Riffell
+    * [GitHub](https://github.com/lkriffell)
+    * [LinkedIn](https://www.linkedin.com/in/logan-riffell/)
+  * Luke Hunter James-Erickson
+    * [GitHub](https://github.com/LHJE)
+    * [LinkedIn](https://www.linkedin.com/in/luke-hunter-james-erickson-b65682143/)
+  * Nico Rithner 
+    * [GitHub](https://github.com/nicorithner)
+    * [LinkedIn](https://www.linkedin.com/in/nicorithner/)
+  * Norma Lopez 
+    * [GitHub](https://github.com/IamNorma)
+    * [LinkedIn](https://www.linkedin.com/in/norma-lopez/)
+  * Roberto Rodriguez 
+    * [GitHub](https://github.com/robertorodriguez12)
+    * [LinkedIn](https://www.linkedin.com/in/roberto-j-rodriguez12/)
+
