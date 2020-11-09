@@ -1,5 +1,8 @@
-# Plants Microservice
+# [My Solar Garden](https://solar-garden-fe.herokuapp.com/) - Plants Microservice
 This Sinatra application serves as a microservice for [My Solar Garden](https://solar-garden-fe.herokuapp.com/), an application for tracking your garden's health and measuring its carbon impacts. It collects plant data by requesting information from the [Harvest Helper API](https://github.com/damwhit/harvest_helper).
+
+## Repos
+For access to all the repos that make up the Service Oriented Architecture of this application please visit our [origanization page](https://github.com/My-Solar-Garden).
 
 ## Readme Content
 - [Getting Started](#getting-started)
